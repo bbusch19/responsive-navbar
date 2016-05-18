@@ -1,2 +1,4 @@
 # responsive-navbar
-A responsive navbar with html, css and jQuery
+
+##Objective
+We will be building a navbar from scratch using HTML, CSS, and jQuery
