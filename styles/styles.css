@@ -20,13 +20,13 @@ main {
 
 nav {
     height: 51px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid rgba(87,92,98,.8);
     width: 100%;
     color: black;
     background: white;
     overflow: hidden;
     font-family: sans-serif;
-    transition-duration: .5s;
+    transition: .5s;
 }
 
 .nav-cont {
@@ -67,27 +67,19 @@ nav {
     margin-bottom: 0;
 }
 
-#logo {
+ #logo {
     line-height: 51px;
     margin-bottom: 0;
     font-weight: 600;
     margin-left: 10px;
     font-size: 18px;
-    /*transition: .1s;*/
 }
-
 
 
 @media (min-width: 600px) {
 
     #hamburger {
         display: none;
-    }
-
-    nav {
-        background: none;
-        display: flex;
-        color: lightgrey;
     }
 
     #list {
@@ -101,6 +93,13 @@ nav {
     margin-right: 10px;
     margin-left: 45px;
     font-weight: 500;
+  }
+
+  nav {
+      background: none;
+      display: flex;
+      color: lightgrey;
+      padding-left: 10px;
   }
 
 }
