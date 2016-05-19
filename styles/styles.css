@@ -3,6 +3,7 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  background: black;
 }
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -25,7 +26,7 @@ nav {
     background: white;
     overflow: hidden;
     font-family: sans-serif;
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 .nav-cont {
@@ -75,6 +76,7 @@ nav {
 }
 
 
+
 @media (min-width: 600px) {
 
     #hamburger {
@@ -84,6 +86,7 @@ nav {
     nav {
         background: none;
         display: flex;
+        color: lightgrey;
     }
 
     #list {
