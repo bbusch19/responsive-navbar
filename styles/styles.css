@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
 /*This makes padding work without changing the size of the container*/
 html {
   -webkit-box-sizing: border-box;
@@ -25,7 +27,7 @@ nav {
     color: black;
     background: white;
     overflow: hidden;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     transition: .5s;
 }
 
@@ -43,7 +45,7 @@ nav {
 }
 
 .height-fixed {
-    height: 150px;
+    height: 165px;
 }
 
 #list {
@@ -55,7 +57,7 @@ nav {
 #list a {
     margin-bottom: 15px;
     margin-left: 10px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #hamburger {
@@ -70,7 +72,7 @@ nav {
  #logo {
     line-height: 51px;
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 700;
     margin-left: 10px;
     font-size: 18px;
 }
