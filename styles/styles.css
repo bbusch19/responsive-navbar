@@ -11,3 +11,91 @@ html {
   }
 
   /*YOUR CODE HERE*/
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    height: 51px;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    color: black;
+    background: white;
+    overflow: hidden;
+    font-family: sans-serif;
+    transition-duration: 1s;
+}
+
+.nav-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 51px;
+}
+
+.height-auto {
+    height: auto;
+    transition: 1s;
+}
+
+.height-fixed {
+    height: 150px;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#list a {
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+#hamburger {
+    height: 51px;
+    width: 51px;
+    background: url("./img/hamburger.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+#logo {
+    line-height: 51px;
+    margin-bottom: 0;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
+@media (min-width: 450px) {
+
+    #hamburger {
+        display: none;
+    }
+
+    nav {
+        background: none;
+        display: flex;
+    }
+
+    #list {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #list a {
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-left: 45px;
+    font-weight: 500;
+  }
+}
